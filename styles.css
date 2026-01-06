@@ -197,7 +197,32 @@ h1{
   grid-template-columns: repeat(3, 1fr);
   gap:16px;
   margin-top:14px;
+}/* COVER SILHOUETTE PLACEHOLDER */
+.cover-placeholder{
+  height: 220px;
+  margin-bottom: 12px;
+  border-radius: 14px;
+  border: 1px dashed rgba(255,255,255,.35);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(125,170,255,.18),
+      rgba(255,255,255,.04)
+    );
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
 }
+
+.cover-text{
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.04em;
+  color: rgba(238,242,255,.85);
+  text-transform: uppercase;
+}
+
 /* NEXT RELEASE HIGHLIGHT */
 .next-release{
   border-color: rgba(125,170,255,.55);
