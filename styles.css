@@ -197,7 +197,8 @@ h1{
   grid-template-columns: repeat(3, 1fr);
   gap:16px;
   margin-top:14px;
-}/* COVER SILHOUETTE PLACEHOLDER */
+}
+/* COVER SILHOUETTE PLACEHOLDER */
 .cover-placeholder{
   height: 220px;
   margin-bottom: 12px;
