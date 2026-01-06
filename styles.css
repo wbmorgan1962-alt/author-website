@@ -198,6 +198,29 @@ h1{
   gap:16px;
   margin-top:14px;
 }
+/* NEXT RELEASE HIGHLIGHT */
+.next-release{
+  border-color: rgba(125,170,255,.55);
+  background: linear-gradient(
+    135deg,
+    rgba(125,170,255,.22),
+    rgba(255,255,255,.05)
+  );
+  position: relative;
+}
+
+.tag{
+  position:absolute;
+  top:12px;
+  right:12px;
+  font-size:11px;
+  font-weight:700;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(125,170,255,.55);
+  background: rgba(125,170,255,.25);
+  color: var(--text);
+}
 
 .future-card{
   border:1px solid var(--line);
