@@ -1,13 +1,231 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>My Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Author Website</title>
+  <meta name="description" content="Official author website — books, photos, and contact." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <h1>Hello, world 👋</h1>
-  <p>This is my GitHub Pages site.</p><img src="images/bookbeingpickedup.jpg" alt="My image">
 
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">W</span>
+        <span class="brand-text">
+          <span class="brand-title">Author Website</span>
+          <span class="brand-subtitle">Books • Events • Contact</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#books">Books</a>
+        <a href="#about">About</a>
+        <a href="#photos">Photos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Children’s books • Storytelling • Big imagination</p>
+          <h1>Hi — I’m <span class="soft">[Your Name]</span>.</h1>
+          <p class="lead">
+            Welcome to my author page. Here you can find my books, photos, and ways to get in touch
+            for school visits, readings, and events.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#books">See the books</a>
+            <a class="btn" href="#contact">Contact</a>
+          </div>
+
+          <div class="quick-facts">
+            <div class="fact">
+              <div class="fact-label">Based in</div>
+              <div class="fact-value">[City, State]</div>
+            </div>
+            <div class="fact">
+              <div class="fact-label">Available for</div>
+              <div class="fact-value">Readings & Visits</div>
+            </div>
+            <div class="fact">
+              <div class="fact-label">Email</div>
+              <div class="fact-value"><a href="mailto:you@example.com">you@example.com</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Author photo">
+          <img src="myfacecloseup.jpg" alt="Author portrait" />
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKS -->
+    <section id="books" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Featured Books</h2>
+          <p class="muted">
+            Replace the buttons with your real Amazon/Publisher links when ready.
+          </p>
+        </div>
+
+        <div class="book-grid">
+          <article class="book-card">
+            <a class="book-cover" href="#" aria-label="View book">
+              <img src="bigfootcover.jpg" alt="Book cover - Bigfoot" />
+            </a>
+            <div class="book-body">
+              <h3>[Book Title: Bigfoot]</h3>
+              <p class="muted">
+                A short, fun description of the story. (1–3 sentences.)
+              </p>
+              <div class="book-actions">
+                <a class="btn small primary" href="#" target="_blank" rel="noopener">Buy / View</a>
+                <a class="btn small" href="#contact">Book a visit</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <a class="book-cover" href="#" aria-label="View book">
+              <img src="paigecover.jpg" alt="Book cover - Paige" />
+            </a>
+            <div class="book-body">
+              <h3>[Book Title: Paige]</h3>
+              <p class="muted">
+                A short, warm description of this book. (1–3 sentences.)
+              </p>
+              <div class="book-actions">
+                <a class="btn small primary" href="#" target="_blank" rel="noopener">Buy / View</a>
+                <a class="btn small" href="#contact">Book a visit</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="mini-gallery">
+          <img src="boyreadingbigfootbook.jpg" alt="Reading photo" />
+          <img src="momandsonreadingbigfootkindle.jpg" alt="Reading on Kindle photo" />
+          <img src="paigeonshelf.jpg" alt="Book on shelf photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt">
+      <div class="wrap two-col">
+        <div>
+          <h2>About the Author</h2>
+          <p>
+            Write 4–6 sentences about you here. Keep it friendly and simple:
+            what you write, who you write for, and what you love about stories.
+          </p>
+
+          <ul class="bullets">
+            <li>School visits, libraries, bookstores</li>
+            <li>Interactive read-aloud + Q&A</li>
+            <li>Signed copies available (optional)</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3>Highlights</h3>
+          <p class="muted">Add anything you want readers to notice first.</p>
+          <div class="chips">
+            <span class="chip">Children’s Books</span>
+            <span class="chip">Read-Aloud Friendly</span>
+            <span class="chip">Classroom Visits</span>
+          </div>
+          <div class="divider"></div>
+          <p class="muted small">
+            Tip: if you have social links, add them in the Contact section below.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section id="photos" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Photos</h2>
+          <p class="muted">Click any photo to open it full-size.</p>
+        </div>
+
+        <div class="photo-grid">
+          <a class="photo" href="CaterpillarGardenSquare.jpg" target="_blank" rel="noopener">
+            <img src="CaterpillarGardenSquare.jpg" alt="Caterpillar garden illustration" />
+          </a>
+          <a class="photo" href="girlreadingcaterpillarbook.jpg" target="_blank" rel="noopener">
+            <img src="girlreadingcaterpillarbook.jpg" alt="Child reading caterpillar book" />
+          </a>
+          <a class="photo" href="bigfootgirlwithmirror.jpg" target="_blank" rel="noopener">
+            <img src="bigfootgirlwithmirror.jpg" alt="Bigfoot girl with mirror" />
+          </a>
+          <a class="photo" href="bookbeingpickedup.jpg" target="_blank" rel="noopener">
+            <img src="bookbeingpickedup.jpg" alt="Book being picked up" />
+          </a>
+          <a class="photo" href="blowingoutcandles.jpg" target="_blank" rel="noopener">
+            <img src="blowingoutcandles.jpg" alt="Blowing out candles" />
+          </a>
+          <a class="photo" href="dustbunnies.jpg" target="_blank" rel="noopener">
+            <img src="dustbunnies.jpg" alt="Dust bunnies illustration" />
+          </a>
+          <a class="photo" href="OnTree.jpg" target="_blank" rel="noopener">
+            <img src="OnTree.jpg" alt="On tree photo" />
+          </a>
+          <a class="photo" href="myface.jpg" target="_blank" rel="noopener">
+            <img src="myface.jpg" alt="Author photo" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Best way to reach me for events, visits, or questions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="label">Email</div>
+            <a class="contact-link" href="mailto:you@example.com">you@example.com</a>
+            <p class="muted small">Replace with your real email address.</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="label">Instagram</div>
+            <a class="contact-link" href="#" target="_blank" rel="noopener">@yourhandle</a>
+            <p class="muted small">Optional.</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="label">Newsletter</div>
+            <a class="contact-link" href="#" target="_blank" rel="noopener">Sign up</a>
+            <p class="muted small">Optional.</p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> [Your Name]</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
